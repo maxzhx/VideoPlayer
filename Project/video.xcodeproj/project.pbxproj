@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2418718A145F474B00F44B10 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24187189145F474B00F44B10 /* MediaPlayer.framework */; };
+		248E9A87145EF9BB008C53EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E9A86145EF9BB008C53EC /* UIKit.framework */; };
+		248E9A89145EF9BB008C53EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E9A88145EF9BB008C53EC /* Foundation.framework */; };
+		248E9A8B145EF9BB008C53EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E9A8A145EF9BB008C53EC /* CoreGraphics.framework */; };
+		248E9A91145EF9BB008C53EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 248E9A8F145EF9BB008C53EC /* InfoPlist.strings */; };
+		248E9A93145EF9BB008C53EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E9A92145EF9BB008C53EC /* main.m */; };
+		248E9A97145EF9BB008C53EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E9A96145EF9BB008C53EC /* AppDelegate.m */; };
+		248E9A9F145EF9BB008C53EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E9A9E145EF9BB008C53EC /* SenTestingKit.framework */; };
+		248E9AA0145EF9BB008C53EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E9A86145EF9BB008C53EC /* UIKit.framework */; };
+		248E9AA1145EF9BB008C53EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E9A88145EF9BB008C53EC /* Foundation.framework */; };
+		248E9AA9145EF9BB008C53EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 248E9AA7145EF9BB008C53EC /* InfoPlist.strings */; };
+		248E9AAC145EF9BB008C53EC /* videoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E9AAB145EF9BB008C53EC /* videoTests.m */; };
+		248E9AC3145EFBFF008C53EC /* VideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E9AC2145EFBFF008C53EC /* VideoInfo.m */; };
+		248E9AC7145EFF4A008C53EC /* VideosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E9AC5145EFF4A008C53EC /* VideosTableViewController.m */; };
+		248E9ACA145F024E008C53EC /* videoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 248E9AC9145F024E008C53EC /* videoList.plist */; };
+		24BF76CD146AA67F00D817C7 /* youkuList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24BF76CC146AA67F00D817C7 /* youkuList.plist */; };
+		822EAEA718349343001E2CE0 /* VideosTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822EAEA618349343001E2CE0 /* VideosTableViewController.xib */; };
+		82ABC6461833B234000109C6 /* 五月天代言--2013高雄城市行銷短片.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82ABC6411833B234000109C6 /* 五月天代言--2013高雄城市行銷短片.mp4 */; };
+		82ABC6471833B234000109C6 /* 一个孤僻的人（王静梅）.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82ABC6421833B234000109C6 /* 一个孤僻的人（王静梅）.mp4 */; };
+		82ABC6481833B234000109C6 /* 越狱兔.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82ABC6431833B234000109C6 /* 越狱兔.mp4 */; };
+		82ABC6491833B234000109C6 /* How to Get Muscle Defenition.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82ABC6441833B234000109C6 /* How to Get Muscle Defenition.mp4 */; };
+		82ABC64A1833B234000109C6 /* Ylvis - The Fox.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82ABC6451833B234000109C6 /* Ylvis - The Fox.mp4 */; };
+		82D2863118340F2A007923B7 /* UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D2863018340F2A007923B7 /* UIImage.m */; };
+		82D2865A18341E64007923B7 /* 冯正虎回家.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 82D2865918341E64007923B7 /* 冯正虎回家.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248E9AA2145EF9BB008C53EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248E9A79145EF9BB008C53EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248E9A81145EF9BB008C53EC;
+			remoteInfo = video;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24187189145F474B00F44B10 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		248E9A82145EF9BB008C53EC /* video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		248E9A86145EF9BB008C53EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		248E9A88145EF9BB008C53EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		248E9A8A145EF9BB008C53EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		248E9A8E145EF9BB008C53EC /* video-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "video-Info.plist"; sourceTree = "<group>"; };
+		248E9A90145EF9BB008C53EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		248E9A92145EF9BB008C53EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		248E9A94145EF9BB008C53EC /* video-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "video-Prefix.pch"; sourceTree = "<group>"; };
+		248E9A95145EF9BB008C53EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		248E9A96145EF9BB008C53EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		248E9A9D145EF9BB008C53EC /* videoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248E9A9E145EF9BB008C53EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		248E9AA6145EF9BB008C53EC /* videoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "videoTests-Info.plist"; sourceTree = "<group>"; };
+		248E9AA8145EF9BB008C53EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		248E9AAA145EF9BB008C53EC /* videoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = videoTests.h; sourceTree = "<group>"; };
+		248E9AAB145EF9BB008C53EC /* videoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoTests.m; sourceTree = "<group>"; };
+		248E9AC1145EFBFF008C53EC /* VideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInfo.h; sourceTree = "<group>"; };
+		248E9AC2145EFBFF008C53EC /* VideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInfo.m; sourceTree = "<group>"; };
+		248E9AC4145EFF4A008C53EC /* VideosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosTableViewController.h; sourceTree = "<group>"; };
+		248E9AC5145EFF4A008C53EC /* VideosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosTableViewController.m; sourceTree = "<group>"; };
+		248E9AC9145F024E008C53EC /* videoList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = videoList.plist; sourceTree = "<group>"; };
+		24BF76CC146AA67F00D817C7 /* youkuList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = youkuList.plist; sourceTree = "<group>"; };
+		822EAEA618349343001E2CE0 /* VideosTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideosTableViewController.xib; sourceTree = "<group>"; };
+		82ABC6411833B234000109C6 /* 五月天代言--2013高雄城市行銷短片.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "五月天代言--2013高雄城市行銷短片.mp4"; sourceTree = "<group>"; };
+		82ABC6421833B234000109C6 /* 一个孤僻的人（王静梅）.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "一个孤僻的人（王静梅）.mp4"; sourceTree = "<group>"; };
+		82ABC6431833B234000109C6 /* 越狱兔.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "越狱兔.mp4"; sourceTree = "<group>"; };
+		82ABC6441833B234000109C6 /* How to Get Muscle Defenition.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to Get Muscle Defenition.mp4"; sourceTree = "<group>"; };
+		82ABC6451833B234000109C6 /* Ylvis - The Fox.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ylvis - The Fox.mp4"; sourceTree = "<group>"; };
+		82D2862E1833F414007923B7 /* UIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImage.h; sourceTree = "<group>"; };
+		82D2863018340F2A007923B7 /* UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage.m; sourceTree = "<group>"; };
+		82D2865918341E64007923B7 /* 冯正虎回家.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "冯正虎回家.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248E9A7F145EF9BB008C53EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2418718A145F474B00F44B10 /* MediaPlayer.framework in Frameworks */,
+				248E9A87145EF9BB008C53EC /* UIKit.framework in Frameworks */,
+				248E9A89145EF9BB008C53EC /* Foundation.framework in Frameworks */,
+				248E9A8B145EF9BB008C53EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E9A99145EF9BB008C53EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E9A9F145EF9BB008C53EC /* SenTestingKit.framework in Frameworks */,
+				248E9AA0145EF9BB008C53EC /* UIKit.framework in Frameworks */,
+				248E9AA1145EF9BB008C53EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248E9A77145EF9BB008C53EC = {
+			isa = PBXGroup;
+			children = (
+				248E9A8C145EF9BB008C53EC /* video */,
+				248E9AA4145EF9BB008C53EC /* videoTests */,
+				248E9A85145EF9BB008C53EC /* Frameworks */,
+				248E9A83145EF9BB008C53EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		248E9A83145EF9BB008C53EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248E9A82145EF9BB008C53EC /* video.app */,
+				248E9A9D145EF9BB008C53EC /* videoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248E9A85145EF9BB008C53EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24187189145F474B00F44B10 /* MediaPlayer.framework */,
+				248E9A86145EF9BB008C53EC /* UIKit.framework */,
+				248E9A88145EF9BB008C53EC /* Foundation.framework */,
+				248E9A8A145EF9BB008C53EC /* CoreGraphics.framework */,
+				248E9A9E145EF9BB008C53EC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		248E9A8C145EF9BB008C53EC /* video */ = {
+			isa = PBXGroup;
+			children = (
+				248E9A95145EF9BB008C53EC /* AppDelegate.h */,
+				248E9A96145EF9BB008C53EC /* AppDelegate.m */,
+				248E9AC1145EFBFF008C53EC /* VideoInfo.h */,
+				248E9AC2145EFBFF008C53EC /* VideoInfo.m */,
+				82D2862E1833F414007923B7 /* UIImage.h */,
+				82D2863018340F2A007923B7 /* UIImage.m */,
+				248E9AC4145EFF4A008C53EC /* VideosTableViewController.h */,
+				248E9AC5145EFF4A008C53EC /* VideosTableViewController.m */,
+				822EAEA618349343001E2CE0 /* VideosTableViewController.xib */,
+				248E9A8D145EF9BB008C53EC /* Supporting Files */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		248E9A8D145EF9BB008C53EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				248E9AC9145F024E008C53EC /* videoList.plist */,
+				24BF76CC146AA67F00D817C7 /* youkuList.plist */,
+				248E9AD0145F0DA1008C53EC /* videos */,
+				248E9A8E145EF9BB008C53EC /* video-Info.plist */,
+				248E9A8F145EF9BB008C53EC /* InfoPlist.strings */,
+				248E9A92145EF9BB008C53EC /* main.m */,
+				248E9A94145EF9BB008C53EC /* video-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		248E9AA4145EF9BB008C53EC /* videoTests */ = {
+			isa = PBXGroup;
+			children = (
+				248E9AAA145EF9BB008C53EC /* videoTests.h */,
+				248E9AAB145EF9BB008C53EC /* videoTests.m */,
+				248E9AA5145EF9BB008C53EC /* Supporting Files */,
+			);
+			path = videoTests;
+			sourceTree = "<group>";
+		};
+		248E9AA5145EF9BB008C53EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				248E9AA6145EF9BB008C53EC /* videoTests-Info.plist */,
+				248E9AA7145EF9BB008C53EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		248E9AD0145F0DA1008C53EC /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				82ABC6411833B234000109C6 /* 五月天代言--2013高雄城市行銷短片.mp4 */,
+				82ABC6421833B234000109C6 /* 一个孤僻的人（王静梅）.mp4 */,
+				82ABC6431833B234000109C6 /* 越狱兔.mp4 */,
+				82ABC6441833B234000109C6 /* How to Get Muscle Defenition.mp4 */,
+				82ABC6451833B234000109C6 /* Ylvis - The Fox.mp4 */,
+				82D2865918341E64007923B7 /* 冯正虎回家.mp4 */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248E9A81145EF9BB008C53EC /* video */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248E9AAF145EF9BB008C53EC /* Build configuration list for PBXNativeTarget "video" */;
+			buildPhases = (
+				248E9A7E145EF9BB008C53EC /* Sources */,
+				248E9A7F145EF9BB008C53EC /* Frameworks */,
+				248E9A80145EF9BB008C53EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = video;
+			productName = video;
+			productReference = 248E9A82145EF9BB008C53EC /* video.app */;
+			productType = "com.apple.product-type.application";
+		};
+		248E9A9C145EF9BB008C53EC /* videoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248E9AB2145EF9BB008C53EC /* Build configuration list for PBXNativeTarget "videoTests" */;
+			buildPhases = (
+				248E9A98145EF9BB008C53EC /* Sources */,
+				248E9A99145EF9BB008C53EC /* Frameworks */,
+				248E9A9A145EF9BB008C53EC /* Resources */,
+				248E9A9B145EF9BB008C53EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248E9AA3145EF9BB008C53EC /* PBXTargetDependency */,
+			);
+			name = videoTests;
+			productName = videoTests;
+			productReference = 248E9A9D145EF9BB008C53EC /* videoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248E9A79145EF9BB008C53EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 248E9A7C145EF9BB008C53EC /* Build configuration list for PBXProject "video" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 248E9A77145EF9BB008C53EC;
+			productRefGroup = 248E9A83145EF9BB008C53EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248E9A81145EF9BB008C53EC /* video */,
+				248E9A9C145EF9BB008C53EC /* videoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248E9A80145EF9BB008C53EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E9A91145EF9BB008C53EC /* InfoPlist.strings in Resources */,
+				82ABC6471833B234000109C6 /* 一个孤僻的人（王静梅）.mp4 in Resources */,
+				82ABC6461833B234000109C6 /* 五月天代言--2013高雄城市行銷短片.mp4 in Resources */,
+				82ABC6491833B234000109C6 /* How to Get Muscle Defenition.mp4 in Resources */,
+				82D2865A18341E64007923B7 /* 冯正虎回家.mp4 in Resources */,
+				822EAEA718349343001E2CE0 /* VideosTableViewController.xib in Resources */,
+				248E9ACA145F024E008C53EC /* videoList.plist in Resources */,
+				24BF76CD146AA67F00D817C7 /* youkuList.plist in Resources */,
+				82ABC6481833B234000109C6 /* 越狱兔.mp4 in Resources */,
+				82ABC64A1833B234000109C6 /* Ylvis - The Fox.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E9A9A145EF9BB008C53EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E9AA9145EF9BB008C53EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		248E9A9B145EF9BB008C53EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248E9A7E145EF9BB008C53EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E9A93145EF9BB008C53EC /* main.m in Sources */,
+				248E9A97145EF9BB008C53EC /* AppDelegate.m in Sources */,
+				82D2863118340F2A007923B7 /* UIImage.m in Sources */,
+				248E9AC3145EFBFF008C53EC /* VideoInfo.m in Sources */,
+				248E9AC7145EFF4A008C53EC /* VideosTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E9A98145EF9BB008C53EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E9AAC145EF9BB008C53EC /* videoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248E9AA3145EF9BB008C53EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248E9A81145EF9BB008C53EC /* video */;
+			targetProxy = 248E9AA2145EF9BB008C53EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		248E9A8F145EF9BB008C53EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248E9A90145EF9BB008C53EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		248E9AA7145EF9BB008C53EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248E9AA8145EF9BB008C53EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248E9AAD145EF9BB008C53EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = armv6;
+			};
+			name = Debug;
+		};
+		248E9AAE145EF9BB008C53EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv6;
+			};
+			name = Release;
+		};
+		248E9AB0145EF9BB008C53EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video/video-Prefix.pch";
+				INFOPLIST_FILE = "video/video-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		248E9AB1145EF9BB008C53EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video/video-Prefix.pch";
+				INFOPLIST_FILE = "video/video-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		248E9AB3145EF9BB008C53EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/video.app/video";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video/video-Prefix.pch";
+				INFOPLIST_FILE = "videoTests/videoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		248E9AB4145EF9BB008C53EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/video.app/video";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "video/video-Prefix.pch";
+				INFOPLIST_FILE = "videoTests/videoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248E9A7C145EF9BB008C53EC /* Build configuration list for PBXProject "video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248E9AAD145EF9BB008C53EC /* Debug */,
+				248E9AAE145EF9BB008C53EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248E9AAF145EF9BB008C53EC /* Build configuration list for PBXNativeTarget "video" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248E9AB0145EF9BB008C53EC /* Debug */,
+				248E9AB1145EF9BB008C53EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248E9AB2145EF9BB008C53EC /* Build configuration list for PBXNativeTarget "videoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248E9AB3145EF9BB008C53EC /* Debug */,
+				248E9AB4145EF9BB008C53EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248E9A79145EF9BB008C53EC /* Project object */;
+}

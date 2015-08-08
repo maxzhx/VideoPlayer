@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<dict>
+		<key>Video2</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>肩挑204斤钞票送新娘!土豪进化幕后真相</string>
+			<key>videoSubtitle</key>
+			<string>video subtitle here</string>
+			<key>videoLink</key>
+			<string>http://v.youku.com/player/getRealM3U8/vid/XNjM0MzIwMjcy_ev_1/type//video.m3u8</string>
+		</dict>
+		<key>Video0</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>天天唱生日快乐歌</string>
+			<key>videoSubtitle</key>
+			<string>video subtitle here</string>
+			<key>videoLink</key>
+			<string>http://v.youku.com/player/getRealM3U8/vid/XNjM0MTE1NDg4/type//video.m3u8</string>
+		</dict>
+		<key>Video1</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>iPad mini retina 开箱 by TechnoBuffalo</string>
+			<key>videoSubtitle</key>
+			<string>subtitle 2 here</string>
+			<key>videoLink</key>
+			<string>http://v.youku.com/player/getRealM3U8/vid/XNjM0MTgzMjUy/type//video.m3u8</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

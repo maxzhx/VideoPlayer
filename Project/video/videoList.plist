@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<dict>
+		<key>Video4</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>Ylvis - The Fox</string>
+			<key>videoSubtitle</key>
+			<string>subtitle 2 here</string>
+			<key>videoExtension</key>
+			<string>mp4</string>
+		</dict>
+		<key>Video3</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>How to Get Muscle Defenition</string>
+			<key>videoSubtitle</key>
+			<string>subtitle 2 here</string>
+			<key>videoExtension</key>
+			<string>mp4</string>
+		</dict>
+		<key>Video2</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>越狱兔</string>
+			<key>videoSubtitle</key>
+			<string>subtitle 2 here</string>
+			<key>videoExtension</key>
+			<string>mp4</string>
+		</dict>
+		<key>Video0</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>五月天代言--2013高雄城市行銷短片</string>
+			<key>videoSubtitle</key>
+			<string>无字幕</string>
+			<key>videoExtension</key>
+			<string>mp4</string>
+		</dict>
+		<key>Video1</key>
+		<dict>
+			<key>videoTitle</key>
+			<string>一个孤僻的人（王静梅）</string>
+			<key>videoSubtitle</key>
+			<string>subtitle 2 here</string>
+			<key>videoExtension</key>
+			<string>mp4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
